@@ -1,0 +1,54 @@
+body{margin:0;font-family:Poppins;background:linear-gradient(135deg,#dff6ff,#ffffff);transition:0.4s}
+.dark{background:#1f3a7a;color:#fff}
+
+.navbar{display:flex;justify-content:space-between;padding:20px;background:#0077b6;backdrop-filter:blur(10px)}
+.navbar ul{display:flex;gap:20px;list-style:none}
+.navbar a{text-decoration:none;color:#fff}
+
+header{text-align:center;padding:60px}
+.btn{padding:10px 20px;border:none;background:#0077b6;color:#fff;border-radius:10px;cursor:pointer}
+
+.card{margin:20px;padding:30px;border-radius:20px;background:rgba(255,255,255,0.2);backdrop-filter:blur(10px)}
+
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:15px}
+.project{padding:20px;background:#0077b6;border-radius:10px;transition:0.3s}
+.project:hover{transform:scale(1.05)}
+
+.bar{height:8px;background:#ddd;border-radius:10px;margin:5px 0}
+.bar div{height:100%;background:#0077b6;border-radius:10px}
+
+.toggle{cursor:pointer;font-size:22px}
+
+.fade{opacity:0;transform:translateY(30px);transition:1s}
+.show{opacity:1;transform:translateY(0)}
+
+/* CONTACT */
+.contact {
+  padding: 40px;
+  text-align: center;
+}
+
+form {
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, textarea {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  background: #0077b6;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+footer{text-align:center;padding:20px;background-color: #0077b6;}

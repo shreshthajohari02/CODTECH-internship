@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shreshtha Portfolio</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar">
+<h2>Shreshtha</h2>
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+<div class="toggle" onclick="toggleMode()">🌙</div>
+</nav>
+
+<header>
+<h1>Welcome!</h1>
+<h1 class="typing" id="typing"></h1>
+<p>UI/UX Designer • Frontend Developer • UI Engineering Enthusiast</p>
+<button class="btn">Download Resume</button>
+</header>
+
+<section id="about" class="card fade">
+<h2>About Me</h2>
+<p>I am Shreshtha Johari, a passionate UI/UX designer who creates visually appealing and user-friendly interfaces. I have completed my 12th (PCB) and currently pursuing Diploma in Computer Science & Engineering. I am also pursuing DCA(Diploma in Computer Applications).</p>
+</section>
+
+<section id="skills" class="card fade">
+<h2>Skills</h2>
+<div class="skill">
+<span>UI/UX Design</span><div class="bar"><div style="width:90%"></div></div>
+<span>Graphic Design</span><div class="bar"><div style="width:85%"></div></div>
+<span>Python</span><div class="bar"><div style="width:80%"></div></div>
+<span>SQL</span><div class="bar"><div style="width:75%"></div></div>
+<span>HTML, CSS, JS</span><div class="bar"><div style="width:90%"></div></div>
+</div>
+</section>
+
+<section id="projects" class="card fade">
+<h2>Projects</h2>
+<div class="grid">
+<div class="project">E-commerce UI</div>
+<div class="project">Coffee App</div>
+<div class="project">Quiz App</div>
+<div class="project">Amazon Clone</div>
+<div class="project">Expense Tracker</div>
+<div class="project">Logo Designs</div>
+</div>
+</section>
+
+<section class="card fade">
+<h2>Tools</h2>
+<p>Figma • Canva • MySQL • CorelDRAW • PowerPoint</p>
+<p>VScode • MySQL • Excel</p>
+</section>
+
+<section class="card fade">
+<h2>Experience</h2>
+<p>UI/UX Intern - Eazybyts</p>
+<p>Graphic Design Intern - Royal Acqusiation</p>
+<p>Frontend Intern - CODETECH</p>
+<p>UI/UX Intern - CodSoft</p>
+</section>
+
+<section class="contact" id="contact">
+  <h2>Contact Me</h2>
+
+  <form id="form">
+    <input type="text" id="name" placeholder="Your Name" required>
+    <input type="email" id="email" placeholder="Your Email" required>
+    <textarea id="msg" placeholder="Your Message" required></textarea>
+    <button type="submit">Send</button>
+  </form>
+
+  <p id="response"></p>
+</section>
+
+<footer id="contact">
+<p>Email: shreshthajohari@gmail.com</p>
+<p>Contact: 1234567890</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
