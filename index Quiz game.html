@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="quiz-container">
+
+  <div class="top-bar">
+    <span id="progress">Question 1/5</span>
+
+    <div>
+      <span id="timer">10</span>
+      <button id="toggleMode" onclick="toggleDarkMode()">🌙</button>
+    </div>
+  </div>
+
+  <div class="progress-bar">
+    <div id="progress-fill"></div>
+  </div>
+
+  <h2 id="question">Loading...</h2>
+  <div id="options"></div>
+
+  <div class="buttons">
+    <button onclick="prevQuestion()">Previous</button>
+    <button onclick="nextQuestion()">Next</button>
+    <button onclick="submitQuiz()">Submit</button>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
