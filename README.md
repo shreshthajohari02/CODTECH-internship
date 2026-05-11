@@ -15,4 +15,7 @@ This project is a modern and responsive E-Learning Website developed using HTML,
 🎨 Clean and modern UI (White & Gold theme)
 🔙 Smooth navigation with back functionality
 
+# Chat App
+A responsive Chat App developed using HTML, CSS, and JavaScript during my internship at CODTECH. This project focuses on creating an interactive chatting interface with modern UI design, smooth user experience, and dynamic frontend functionality.
+
 
